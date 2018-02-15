@@ -17,5 +17,5 @@ chmod 755 cookpad.sh
 
 using sample .pkl data
 ```
-python3 cookpad\_read.py
+python cookpad_read.py
 ```
