@@ -42,6 +42,6 @@ while(num < nb_menu and tmp < end): # nb_menu個見つけるか、startがendに
             continue
  
  
-with open('data/menu-' + str(start) + '-' + str(end) + '.pkl', 'wb') as f:
+with open('data_json/menu-' + str(start) + '-' + str(end) + '.pkl', 'wb') as f:
     pickle.dump(menu, f)
 
